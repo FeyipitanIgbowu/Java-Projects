@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Nokia {
+public class Nokia1 {
     public static void main(String... args) {
         Scanner input = new Scanner(System.in);
 
@@ -9,12 +9,11 @@ public class Nokia {
                             Welcome to Your Nokia Phone  
                             Menu
 
-                           0 -> Back;
                              1 -> Phonebook;
                              2 -> Messages; 
                              3 -> Chat;
                              4 -> Call Register;
-                             5 -> Tones;s
+                             5 -> Tones;
                              6 -> Settings;
                              7 -> Call Divert;
                              8 -> Games;
@@ -23,15 +22,14 @@ public class Nokia {
                             11 -> Clock;
                             12 -> Profiles;
                             13 -> SIM Services;
-                            0 -> Back;
+                            
         """;
 
         System.out.println(menu);
         int menu1 = input.nextInt();
+        
 
         switch (menu1) {
-            case 0 : System.out.println("Exit");
-                          running = false; break;
             
             case 1: System.out.println("""
                         Phonebook Menu:
